@@ -27,7 +27,7 @@
 
         .menuItem{
             color: $bg_dark;
-            height: 100px;
+            height: 95px;
             font-family: $normal_font;
             font-size: 22px;
             justify-content: center;
@@ -37,13 +37,13 @@
             text-decoration: none;
             &:hover{
                 color: $bg_orange;
-                border-bottom: 3px solid $bg_orange;
+                border-bottom: 4px solid $bg_orange;
             }
         }
 
         .active{
             color: $bg_orange;
-            border-bottom: 3px solid $bg_orange;
+            border-bottom: 4px solid $bg_orange;
         }
 
         

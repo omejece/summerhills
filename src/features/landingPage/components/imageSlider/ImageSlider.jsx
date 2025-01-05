@@ -4,8 +4,7 @@ import { homeSlideImage } from "../../../../app/data";
 
 const ImageSlider = (props)=>{
      return (
-        <div className="imageslider">
-            
+        <div className="imageSlider">
         </div>
      );
 }

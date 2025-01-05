@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import Store from './app/store';
 import {BrowserRouter,Routes, Route} from "react-router-dom";
 import LandingPage from './features/landingPage/LandingPage';
+import Home from './features/landingPage/pages/home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +15,8 @@ root.render(
     <Provider store={Store}>
         <BrowserRouter>
             <Routes>
-                 <Route path='' element={<LandingPage /> }>
-                    
+                 <Route path='/' element={<LandingPage /> }>
+                       <Route path='' element={<Home />} />
                  </Route>
             </Routes>
         </BrowserRouter>
