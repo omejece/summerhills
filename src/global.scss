@@ -1,0 +1,27 @@
+
+// detemin screen size
+$mobile_break_point: 768px;
+$table_break_point: 1024px;
+
+
+//define colors
+
+$bg_orange: #FF4800;
+$bg_dark: #262222;
+$bg_white: #FFFFFF;
+
+
+//fonts
+
+$normal_font: 'Montserrat', sans-serif;
+
+
+
+@mixin respond-to($device){
+    @if $device == "mobile" {
+        @media(max-width: $mobile_break_point) {@content;}
+    }
+    @else if $device == "tablet" {
+        @media(max-width: $table_break_point ) {@content;}
+    }
+}

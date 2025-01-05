@@ -1,0 +1,53 @@
+@import "../../../../global.scss";
+
+
+.subnavbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    .logo{
+        padding-left: 8rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .menu{
+        display: flex;
+        padding-right: 10rem;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        height: 100%;
+        gap: 2rem;
+
+        .menuItem{
+            color: $bg_dark;
+            height: 100px;
+            font-family: $normal_font;
+            font-size: 22px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            text-decoration: none;
+            &:hover{
+                color: $bg_orange;
+                border-bottom: 3px solid $bg_orange;
+            }
+        }
+
+        .active{
+            color: $bg_orange;
+            border-bottom: 3px solid $bg_orange;
+        }
+
+        
+    }
+}
+
+
