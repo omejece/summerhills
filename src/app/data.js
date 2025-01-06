@@ -99,3 +99,97 @@ export const featureData = {
     amountExpected: "500,000",
     image: "/assets/img/outreach11.JPG"
 }
+
+
+export const fundRaisingEvents = [
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach1.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach2.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach3.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach4.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach5.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach6.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach7.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach8.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach9.JPG"
+    },
+    {
+        title: "School in Africa Need Renovations",
+        brief: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        lastDonation: "Last donation 1w ago",
+        progress: "20",
+        amountRaised: "8,000",
+        amountExpected: "500,000",
+        image: "/assets/img/outreach10.JPG"
+    }
+]

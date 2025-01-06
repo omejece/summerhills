@@ -7,4 +7,55 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    overflow-x: hidden;
+}
+
+
+.itemScrollBtnLeft{
+    height: 70px;
+    width: 70px;
+    background-color: $bg_orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+    left: 8rem;
+    cursor: pointer;
+
+    span{
+        font-size: 100;
+        color: $bg_white;
+    }
+}
+
+
+.itemScrollBtnRight{
+    height: 70px;
+    width: 70px;
+    background-color: $bg_orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+    right: 8rem;
+    cursor: pointer;
+
+    span{
+        font-size: 100;
+        color: $bg_white;
+    }
+}
+
+
+
+.eventScrollActionButtons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
