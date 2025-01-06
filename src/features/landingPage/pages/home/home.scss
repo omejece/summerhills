@@ -131,7 +131,7 @@
      }
 
      .topFundRaisers{
-        height: 1500px;
+        height: 1000px;
         background-color: white;
         padding-top: 4rem;
         padding-left: 8rem;
@@ -165,7 +165,7 @@
 
                 .itemEventList{
                     height: 600px;
-                    width: 350px;
+                    width: 400px;
                     display: inline-block;
                     flex-direction: column;
                     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -183,19 +183,112 @@
             }
         }
 
-        .latestDonations{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 600px;
 
-            h3{
-                font-family: $normal_font;
-                font-size: 40px;              
-            }
+     }
+
+
+     .latestDonations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+        background-color: white;
+        padding-top: 4rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+
+
+        h3{
+            font-family: $normal_font;
+            font-size: 40px;              
         }
 
+        .donations{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            background-color: $bg_white;
+            gap: 2rem;
+            overflow-wrap: break-word;
+            overflow: hidden;
+            height: 500px;
+            width: 100%;
 
+            .donationItem{
+                background-color: $bg_gray;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+                .imageContainer{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    height: 30%;
+                    padding: 2rem;
+                    
+                    img{
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                     }
+                }
+
+
+
+                .donationBody{
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+
+                    span:nth-of-type(1){
+                        color: $bg_dark;
+                        font-size: 30px;
+                        font-family: $normal_font;
+                    }
+
+                    span:nth-of-type(2){
+                        color: $bg_dark_gray;
+                        font-size: 20px;
+                        font-family: $normal_font;
+                    }
+                }
+
+                .donationfooter{
+                    height: 20%;
+                    display: flex;
+                    div:nth-of-type(1){
+                        width: 50%;
+                        height: 70px;
+                        background-color: $bg_dark_gray;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        text-align: center;
+                        font-size: 22px;
+                        font-family: $normal_font;
+                    }
+
+                    div:nth-of-type(2){
+                        width: 50%;
+                        height: 70px;
+                        color: $bg_white;
+                        background-color: $bg_orange;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        text-align: center;
+                        font-size: 22px;
+                        font-family: $normal_font;
+                    }
+                }
+            }
+        }
      }
 
      .successStories{

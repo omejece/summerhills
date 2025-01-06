@@ -1,5 +1,5 @@
 import ImageSlider from "../../components/imageSlider/ImageSlider";
-import {appealItemContent, featureData,fundRaisingEvents} from "../../../../app/data";
+import {appealItemContent, featureData,fundRaisingEvents, latestDonationData} from "../../../../app/data";
 import "./home.scss";
 import Progressbar from "../../components/progressBar/Progressbar";
 import { useRef } from "react";
@@ -13,10 +13,16 @@ const Home = ()=>{
     const handleScrollEvent = (direction)=>{
          if(eventScrollRef){
             if(direction == "left"){
-                eventScrollRef.current.scrollLeft  -= 20
+                eventScrollRef.current.scrollTo({
+                    left: eventScrollRef.current.scrollLeft - 200,
+                    behavior: "smooth"
+                });
             }
             else{
-                eventScrollRef.current.scrollLeft += 20;
+                eventScrollRef.current.scrollTo({
+                    left: eventScrollRef.current.scrollLeft + 200,
+                    behavior: "smooth"
+                });
             }
          }
     }
@@ -104,10 +110,31 @@ const Home = ()=>{
                              </div>
                        </div>
                   </div>
+             </div>
 
-                  <div className="latestDonations">
-                        <h3>Latest Donations</h3>
-                  </div>
+             <div className="latestDonations">
+                <h3>Latest Donations</h3>
+                <div className="donations">
+                     {
+                        latestDonationData.map((data,index)=>{
+                             return (
+                                <div className="donationItem">
+                                     <div className="imageContainer">
+                                        <img src={data.image} alt="" /> 
+                                     </div>
+                                     <div className="donationBody">
+                                          <span>{data.name}</span>
+                                          <span>Donated {data.time} ago</span>
+                                     </div>
+                                     <div className="donationfooter">
+                                        <div>Donated</div>
+                                        <div>${data.amount}</div>
+                                     </div>
+                                </div>
+                             )
+                        })
+                     }
+                </div>
              </div>
              <div className="successStories">
 

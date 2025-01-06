@@ -11,6 +11,14 @@ export const menuData = [
         path: "/about_us"
     },
     {
+        name: "Our Team",
+        path: "/our_team"
+    },
+    {
+        name: "Donations",
+        path: "/donations"
+    },
+    {
         name: "Causes",
         path: "/causes"
     },
@@ -35,6 +43,18 @@ export const siteContact = {
 }
 
 export const homeSlideImages = [
+    {
+        path: "/assets/img/medical1.jpg",
+        heading: "Donate",
+        title: "For a better world",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam."
+    },
+    {
+        path: "/assets/img/medical2.jpg",
+        heading: "Donate",
+        title: "For a better world",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam."
+    },
     {
         path: "/assets/img/foundation_team.JPG",
         heading: "Donate",
@@ -192,4 +212,32 @@ export const fundRaisingEvents = [
         amountExpected: "500,000",
         image: "/assets/img/outreach10.JPG"
     }
+]
+
+
+export const latestDonationData = [
+     {
+        image: "/assets/img/person_1.jpg.webp",
+        name: "Augustine Ugwu",
+        time: "3 hours",
+        amount: "1,150"
+     },
+     {
+        image: "/assets/img/person_2.jpg.webp",
+        name: "Kelvin Smith",
+        time: "3 hours",
+        amount: "2,050"
+     },
+     {
+        image: "/assets/img/person_3.jpg.webp",
+        name: "Emeka Okoro",
+        time: "3 hours",
+        amount: "4,550"
+     },
+     {
+        image: "/assets/img/person_4.jpg.webp",
+        name: "Sylvia Lilian",
+        time: "3 hours",
+        amount: "5,150"
+     }
 ]
