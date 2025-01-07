@@ -59,7 +59,7 @@ const Footer = (props)=>{
                         </span>
                   </div>
                   <div className="newsLetter">
-                      <input className="emailInput" />
+                      <input className="emailInput" placeholder="your email" />
                       <button>
                           Submit
                       </button>

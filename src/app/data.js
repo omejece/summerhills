@@ -263,7 +263,7 @@ export const latestNewsData = [
         eventDate:"25th July"     
     },
     {
-        image: "/assets/img/medicalOutreach.jpg",
+        image: "/assets/img/outreach8.JPG",
         title: "Donate vitamin B12 supply program",
         brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
         donateLink: "/donate",
@@ -271,7 +271,7 @@ export const latestNewsData = [
         eventDate:"25th July"        
     },
     {
-        image: "/assets/img/medicalOutreach.jpg",
+        image: "/assets/img/outreach5.JPG",
         title: "Donate vitamin B12 supply program",
         brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
         donateLink: "/donate",
@@ -279,7 +279,7 @@ export const latestNewsData = [
         eventDate:"25th July"        
     },
     {
-        image: "/assets/img/medicalOutreach.jpg",
+        image: "/assets/img/outreach6.JPG",
         title: "Donate vitamin B12 supply program",
         brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
         donateLink: "/donate",
@@ -287,7 +287,7 @@ export const latestNewsData = [
         eventDate:"25th July"        
     },
     {
-        image: "/assets/img/medicalOutreach.jpg",
+        image: "/assets/img/outreach2.JPG",
         title: "Donate vitamin B12 supply program",
         brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
         donateLink: "/donate",
