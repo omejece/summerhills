@@ -3,7 +3,9 @@ import MainContent from "./components/mainContent/MainContent";
 import Navbar from "./components/navbar/Navbar";
 import Subnavbar from "./components/subnavbar/Subnavbar";
 import {
-    aboutUsData
+    aboutUsData,
+    latestNewsData,
+    siteContact
 } from "../../app/data";
 
 import "./landingPage.scss";
@@ -16,7 +18,11 @@ const LandingPage = ()=>{
             <Navbar />
             <Subnavbar />
             <MainContent />
-            <Footer aboutUsData={aboutUsData} />
+            <Footer 
+              aboutUsData={aboutUsData} 
+              latestNewsData={latestNewsData} 
+              siteContact={siteContact}
+            />
         </div>
      )
 

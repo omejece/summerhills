@@ -39,7 +39,8 @@ export const menuData = [
 
 export const siteContact = {
     phone: "+234 07031368418",
-    email: "omejece@gmail.com"
+    email: "omejece@gmail.com",
+    address: "27 Okonja Street"
 }
 
 export const homeSlideImages = [

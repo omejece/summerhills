@@ -9,7 +9,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 
-    div:nth-of-type(1){
+    .aboutUs{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -17,7 +17,7 @@
         h1{
             color: $bg_white;
             font-family: $normal_font;
-            font-size: 40px;
+            font-size: 30px;
         }
 
         p{
@@ -49,28 +49,130 @@
     }
 
 
-    div:nth-of-type(2){
+    .upcommingEvents{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        gap: 1rem;
 
         h1{
             color: $bg_white;
             font-family: $normal_font;
-            font-size: 40px;
+            font-size: 30px;
+        }
+
+        .events{
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 1rem;
+
+            img{
+                height: 70px;
+                width: 70px;
+            }
+
+            div{
+
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                a{
+                    color: $bg_white;
+                    font-family: $normal_font;
+                    font-size: 15px;
+                    word-wrap: none;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    text-decoration: none;
+                    width: 100%;
+                }
+
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+
+                    span:nth-of-type(1){
+                        color: $bg_dark_gray;
+                        font-size: 20px;
+                     }
+
+                    span:nth-of-type(2){
+                        color: $bg_dark_gray;
+                        font-family: $normal_font;
+                        font-size: 20px;
+                     }
+                }
+            }
+
         }
     }
 
 
-    div:nth-of-type(3){
+    .contactUs{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        gap: 2rem;
 
         h1{
             color: $bg_white;
             font-family: $normal_font;
-            font-size: 40px;
+            font-size: 30px;
         }
+
+        div{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            span:nth-of-type(1){
+                color: $bg_dark_gray;
+                font-size: 20px;
+             }
+
+            span:nth-of-type(2){
+                color: $bg_dark_gray;
+                font-family: $normal_font;
+                font-size: 20px;
+             }
+        }
+
+        .newsLetter{
+            display: flex;
+            flex-direction: row;
+            gap: 0rem;
+            width: 100%;
+
+            .emailInput{
+                height: 40px;
+                width: 80%;
+                width: 300px;
+                font-size: 25px;
+                padding: 0.3rem;
+                border: 0px;
+            }
+
+            button{
+                width: 20%;
+                font-size: 20px;
+                color: $bg_white;
+                font-family: $normal_font;
+                background-color: $bg_orange;
+                border: 0px;
+
+                &:hover{
+                    border: 2px solid $bg_orange;
+                    background-color: transparent;
+                    color: $bg_white;
+                }
+            }
+
+        }
+
+
     }
 }
