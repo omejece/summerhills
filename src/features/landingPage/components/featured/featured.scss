@@ -1,0 +1,80 @@
+@import "../../../../global.scss";
+
+
+.featured{
+    height: 1000px;
+    display: grid;
+    background-color: $bg_orange;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    .writeUp{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        height: 90%;
+        
+        h3:nth-of-type(1){
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 25px;
+        }
+
+        h3:nth-of-type(2){
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 60px;
+        }
+
+        p{
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 27px;   
+            line-height: 45px;            
+        }
+
+        span:nth-of-type(1){
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 23px;   
+            line-height: 50px;               
+        }
+
+        span:nth-of-type(2){
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 23px; 
+            line-height: 50px;                
+        }
+
+        button{
+            color: $bg_white;
+            font-family: $normal_font;
+            font-size: 23px; 
+            height: 70px;
+            margin-top: 4rem;
+            width: 350px;
+            background-color: $bg_dark; 
+            border: 1px solid $bg_dark;
+            border-radius: 10px;   
+            &:hover{
+                background-color: transparent;
+                border: 2px solid $bg_white; 
+            }          
+        }
+    }
+
+    .image{
+        border: 5px solid $bg_white;
+        width: 90%;
+        height: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ }

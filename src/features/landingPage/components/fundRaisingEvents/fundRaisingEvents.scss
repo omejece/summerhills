@@ -1,0 +1,105 @@
+@import "../../../../global.scss";
+
+.fundRaising{
+    height: 1000px;
+    background-color: white;
+    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    clip-path: inset(0);
+    flex: 1;
+
+    h3{
+        font-family: $normal_font;
+        font-size: 40px;           
+    }
+
+    .fundRaisingEvents{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .events{
+            height: 90%;
+            width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 2rem;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* Internet Explorer 10+ */
+            white-space: nowrap;
+
+            .itemEventList{
+                height: 600px;
+                width: 400px;
+                display: inline-block;
+                flex-direction: column;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                background-color: $bg_white; 
+                margin-left: 4rem;
+
+                img{
+                    height: 30%;
+                    display: inline-block;
+                    width: 99.7%;
+                }
+
+                .donationEventContent{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding: 2rem;
+                    word-wrap: break-word; /* Breaks words to fit within the div */
+                    word-break: break-word; /* Older browsers support */
+                    overflow-wrap: break-word; /* Modern support */
+                    overflow: hidden;
+                    height: 70%;
+                    gap: 1rem;
+                    
+                    span:nth-of-type(1){
+                        color: $bg_dark;
+                        font-family: $normal_font;
+                        font-size: 30px;
+                        white-space: normal; /* Ensures wrapping */
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                    }
+                
+                    span:nth-of-type(2){
+                        color: $bg_dark;
+                        font-family: $normal_font;
+                        font-size: 20px;
+                        white-space: normal; /* Ensures wrapping */
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                    }
+                
+                    p{
+                        color: $bg_dark;
+                        font-family: $normal_font;
+                        font-size: 20px;   
+                        line-height: 30px; 
+                        white-space: normal; /* Ensures wrapping */
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;       
+                    }
+                
+                
+                    
+                }
+
+
+            }
+        }
+    }
+
+
+
+    
+
+
+ }

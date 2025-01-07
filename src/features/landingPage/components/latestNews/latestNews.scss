@@ -1,0 +1,111 @@
+@import "../../../../global.scss";
+
+
+.latestNews{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    gap: 1rem;
+
+    h3{
+        font-family: $normal_font;
+        font-size: 40px;               
+    }
+
+    .news{
+
+        height: 80%;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        white-space: nowrap;
+
+        .newsItem{
+            width: 600px;
+            height: 600px;
+            display: inline-block;
+            flex-direction: column;
+            margin-left: 2rem;
+            .newsImageContainer{
+                height: 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                object-fit: cover;
+                display: grid;
+                justify-content: flex-start;
+                align-content: end;
+
+                div{
+                    width: 200px;
+                    height: 70px;
+                    background-color: $bg_orange;
+                    font-size: 23px;
+                    font-family: $normal_font;
+                    color: $bg_dark;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    display: flex;
+
+                    &:hover{
+                        background-color: transparent;
+                        border: 2px solid $bg_orange;
+                        color: $bg_white;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .newsItemBody{
+                display: flex;
+                flex-direction: column;
+                padding-top: 2rem;
+                white-space: nowrap;
+                overflow: hidden;
+
+                span{
+                    color: $bg_dark;
+                    font-size: 30px;
+                    font-weight: bold;
+                    font-family: $normal_font;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    white-space: normal;
+                }
+
+                p{
+                    color: $bg_dark_gray;
+                    font-size: 22px;
+                    font-family: $normal_font;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    white-space: normal;
+                }
+
+                a{
+                    color: $bg_orange;
+                    font-size: 30px;
+                    font-family: $normal_font;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    white-space: normal;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+
+    .newsScrollActionButtons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+ }

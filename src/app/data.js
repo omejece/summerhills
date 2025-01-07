@@ -241,3 +241,62 @@ export const latestDonationData = [
         amount: "5,150"
      }
 ]
+
+
+export const upcomingProgramData = {
+    image: "/assets/img/medicalOutreach.jpg",
+    title: "Donate vitamin B12 supply program",
+    brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    donateLink: "/donate",
+    programLink: "/programs"
+}
+
+
+export const latestNewsData = [
+    {
+        image: "/assets/img/medicalOutreach.jpg",
+        title: "Donate vitamin B12 supply program",
+        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        donateLink: "/donate",
+        programLink: "/programs",
+        eventDate:"25th July"     
+    },
+    {
+        image: "/assets/img/medicalOutreach.jpg",
+        title: "Donate vitamin B12 supply program",
+        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        donateLink: "/donate",
+        programLink: "/programs",
+        eventDate:"25th July"        
+    },
+    {
+        image: "/assets/img/medicalOutreach.jpg",
+        title: "Donate vitamin B12 supply program",
+        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        donateLink: "/donate",
+        programLink: "/programs",
+        eventDate:"25th July"        
+    },
+    {
+        image: "/assets/img/medicalOutreach.jpg",
+        title: "Donate vitamin B12 supply program",
+        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        donateLink: "/donate",
+        programLink: "/programs",
+        eventDate:"25th July"        
+    },
+    {
+        image: "/assets/img/medicalOutreach.jpg",
+        title: "Donate vitamin B12 supply program",
+        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        donateLink: "/donate",
+        programLink: "/programs",
+        eventDate:"25th July"        
+    }
+]
+
+
+export const aboutUsData = {
+    brief: "Summer Hills Foundation (SHF) is a private charitable foundation established by Prince Telvin Ugochukwu Onuorah. Incorporated in 2020 under the Corporate Affairs Commission (CAC) with Registration Number CAC/TT/NO 153360, SHF is committed to bridging societal gaps and maximizing potential to foster social change. The foundation’s mission focuses on enhancing health and well-being, promoting quality education, and broadening economic empowerment opportunities for the underprivileged across Africa and beyond.",
+    readMoreLink: "/about_us"
+}
