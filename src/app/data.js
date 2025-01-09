@@ -39,7 +39,7 @@ export const menuData = [
 
 export const siteContact = {
     phone: "+234 702 560 3331",
-    email: "omejece@gmail.com",
+    email: "info@summerhillsfoundation.com",
     address: "347 Agbani Road Awk"
 }
 
@@ -229,19 +229,19 @@ export const latestNewsData = [
     },
     {
         image: "/assets/img/outreach6.JPG",
-        title: "Donate vitamin B12 supply program",
-        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        title: "TAKE THE CHILDREN OFF THE STREET SCHOOL SENSITISATION",
+        brief: "Operation take children out of the street will be centered on paying school fees for children whose parents can't afford it",
         donateLink: "/donate",
         programLink: "/programs",
-        eventDate:"25th July"        
+        eventDate:"9th - 15th Sept 2025"        
     },
     {
         image: "/assets/img/outreach2.JPG",
-        title: "Donate vitamin B12 supply program",
-        brief: "When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+        title: "END OF THE YEAR PARTY",
+        brief: "Our end of the year party will centered on sharing food stuff, clothings and other relief materials ",
         donateLink: "/donate",
         programLink: "/programs",
-        eventDate:"25th July"        
+        eventDate:"18th Dec 2025"        
     }
 ]
 
@@ -412,7 +412,7 @@ export const contactData = {
     address: "347 Agbani Road Awk",
     phone: "+1 253 565 2365",
     workDays: "Mon to Fri 9am to 6pm",
-    email: "support@colorlib.com",
+    email: "info@summerhillsfoundation.com",
     emailPlaceHolder: "Send us your query anytime!"
 }
 
