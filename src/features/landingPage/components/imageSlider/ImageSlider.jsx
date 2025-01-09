@@ -77,13 +77,13 @@ const ImageSlider = (props)=>{
 
                               <div className="actionButtons">
                                     
-                                    <button>
+                                    <a href={`/donate`}>
                                        Donate
-                                    </button>
+                                    </a>
 
-                                    <button>
+                                    <a href={`/programs`}>
                                        Read More
-                                    </button>
+                                    </a>
 
                               </div>
                             </>

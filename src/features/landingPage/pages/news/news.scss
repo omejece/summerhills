@@ -1,0 +1,89 @@
+@import "../../../../global.scss";
+
+
+.ourteam{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .ourTeamContent{
+        min-height: 800px;
+        background-color: $bg_gray;
+        padding: 8rem;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    
+        h1{
+            font-size: 40px;
+            overflow-wrap: break-word;
+            white-space: normal;
+            font-family: $normal_font;
+        }
+    
+        .ourTeamBody{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 2rem;
+    
+            .teamItem{
+                height: 600px;
+                background-color: $bg_white;
+                display: flex;
+                flex-direction: column;
+
+                .imageContainer{
+                    height: 30%;
+                    display: flex;
+                    padding: 2rem;
+                    justify-content: center;
+
+                    img{
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+
+                        &:hover{
+                            height: 500px;
+                            width: 500px;
+                            border-radius: 50%;
+                            z-index: 10;
+                        }
+                    }
+                }
+
+                .profileBody{
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2rem;
+                    padding-top: 0.5rem;
+                    align-items: center;
+                    gap: 1rem;
+
+                    span:nth-of-type(1){
+                        font-size: 35px;
+                        word-wrap: normal;
+                        word-break: break-all;
+                        overflow-wrap: break-word;
+                        font-family: $normal_font;
+                        text-align: center;
+                    }
+
+                    span:nth-of-type(2){
+                        font-size: 20px;
+                        word-wrap: normal;
+                        word-break: break-all;
+                        overflow-wrap: break-word;
+                        font-family: $normal_font; 
+                        line-height: 40px;
+                        text-align: center;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

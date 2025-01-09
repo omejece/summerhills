@@ -1,0 +1,35 @@
+@import "../../../../global.scss";
+
+.gallery{
+    min-height: 800px;
+
+
+    .galleryContent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 8rem;
+        padding-top: 4rem;
+        gap: 0.5rem;
+
+        .galleryItem{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+
+            img{
+                width: 100%;
+                height: 80%;
+
+                &:hover{
+                    width: 150%;
+                    height: 150%;
+                    z-index: 10;
+                }
+            }
+
+            .galleryItemBody{
+                height: 20%;
+            }
+        }
+    }
+}

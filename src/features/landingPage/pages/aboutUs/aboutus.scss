@@ -1,0 +1,116 @@
+@import "../../../../global.scss";
+
+.aboutus{
+     min-height: 800px;
+    .aboutContent{
+        min-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 8rem;
+        padding-top: 2rem;
+        margin-top: 5rem;
+        background-color: $bg_gray;
+        gap: 5rem;
+
+        .briefOverview{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 4rem;
+
+            img{
+                width: 40%;
+                height: 90%;
+            }
+
+            .briefContent{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                h1{
+                    font-size: 40px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                }
+
+                p{
+                    font-size: 25px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                    line-height: 40px;
+                }
+            }
+        }
+
+        .history{
+            display: flex;
+            flex-direction: column;
+            padding-top: 2px;
+
+            h1{
+                font-size: 40px;
+                overflow-wrap: break-word;
+                white-space: normal;
+                font-family: $normal_font;
+            }
+
+            p{
+                font-size: 25px;
+                overflow-wrap: break-word;
+                white-space: normal;
+                font-family: $normal_font;
+                line-height: 40px;
+            }
+        }
+
+
+        .visionAndMission{
+            display: flex;
+            flex-direction: row;
+            gap: 4rem;
+
+            .vision{
+                display: flex;
+                flex-direction: column;
+                padding-top: 2px;
+    
+                h1{
+                    font-size: 40px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                }
+    
+                p{
+                    font-size: 25px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                    line-height: 40px;
+                }
+            }
+
+            .misson{
+                display: flex;
+                flex-direction: column;
+                padding-top: 2px;
+
+                ul{
+                    li{
+                        font-size: 25px;
+                        overflow-wrap: break-word;
+                        white-space: normal;
+                        font-family: $normal_font;
+                        line-height: 40px;   
+                    }
+                }
+            }
+        }
+
+
+    }
+}

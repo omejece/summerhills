@@ -1,0 +1,48 @@
+@import "../../../../global.scss";
+
+
+.medicalMission{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+    .medicalMissionContent{
+        .briefOverview{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding: 8rem;
+            padding-top: 4rem;
+            gap: 4rem;
+
+            img{
+                width: 40%;
+                height: 90%;
+            }
+
+            .briefContent{
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                h1{
+                    font-size: 40px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                }
+
+                p{
+                    font-size: 25px;
+                    overflow-wrap: break-word;
+                    white-space: normal;
+                    font-family: $normal_font;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+
+}

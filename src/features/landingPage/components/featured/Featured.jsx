@@ -16,9 +16,9 @@ const Featured = (props)=>{
                 {`$${props.featureData.amountRaised} raised of $${props.featureData.amountExpected} `}
                 </span>
 
-                <button>
-                    DONATE NOW
-                </button>
+                <a href="https://independent.ng/covid-19-foundation-distributes-palliatives-to-vulnerable-people-in-enugu/">
+                    Read More
+                </a>
             </div>
             <div 
             className="image"

@@ -59,3 +59,25 @@
     justify-content: center;
     gap: 2rem;
 }
+
+
+.faceImage{
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    max-zoom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 0rem;
+
+    h1{
+       font-size: 100px;
+       font-family: $bg_dark;
+       color: $bg_dark;
+       font-weight: bold;
+    }
+}

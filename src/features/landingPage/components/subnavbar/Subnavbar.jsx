@@ -1,17 +1,18 @@
 import "./subnavbar.scss";
 import { menuData } from "../../../../app/data";
-import { useState } from "react";
-import {useNavigate} from "react-router-dom";
+import { useEffect, useState } from "react";
+import {useNavigate, useLocation} from "react-router-dom";
 
 const Subnavbar = (props)=>{
     const navigate = useNavigate();
+    const location = useLocation();
     const [selectedIndex,setSelectedIndex] = useState(0);
     const [logoImage,setLogoImage] = useState("/assets/img/logo.JPG");
 
-    const selectMenu = (index,path)=>{
-        setSelectedIndex(index);
-        //navigate(path);
-    }
+  
+
+    useEffect(()=>{
+    },[location]);
     
     return (
         <div className="subnavbar">
@@ -23,10 +24,9 @@ const Subnavbar = (props)=>{
                     menuData.map((data,index)=>{
                         return(
                             <a 
-                              href="#" 
-                              className={selectedIndex == index ? "menuItem active" : "menuItem"}
+                              href={data.path} 
+                              className={location?.pathname == data.path ? "menuItem active" : "menuItem"}
                               key={index}
-                              onClick={()=>selectMenu(index,data.path)}
                             >{data.name}</a>
                         )
                     })

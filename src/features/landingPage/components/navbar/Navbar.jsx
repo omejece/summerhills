@@ -15,7 +15,7 @@ const Navbar = (props)=>{
                   </span>
              </div>
              <div className="actions">
-                  <a href="/">Donate Now</a>
+                  <a href="/donate">Donate Now</a>
              </div>
         </div>
     );

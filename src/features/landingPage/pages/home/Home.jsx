@@ -5,7 +5,8 @@ import {
     fundRaisingEvents, 
     latestDonationData,
     upcomingProgramData,
-    latestNewsData
+    latestNewsData,
+    videoEventsData
 } from "../../../../app/data";
 import "./home.scss";
 import Progressbar from "../../components/progressBar/Progressbar";
@@ -16,6 +17,7 @@ import Appeal from "../../components/appeal/Appeal";
 import Featured from "../../components/featured/Featured";
 import FundRaisingEvents from "../../components/fundRaisingEvents/FundRaisingEvents";
 import LatestNews from "../../components/latestNews/LatestNews";
+import VideoEvent from "../../components/videoEvent/VideoEvent";
 
 
 const Home = ()=>{
@@ -26,6 +28,7 @@ const Home = ()=>{
         <div className="home">
              <ImageSlider />
              <Appeal appealItemContent={appealItemContent} />
+             <VideoEvent videoEventData={videoEventsData[0]}  />
              <Featured featureData={featureData} />
              <FundRaisingEvents  fundRaisingEvents={fundRaisingEvents} />
              <LatestDonations latestDonationData={latestDonationData} />
